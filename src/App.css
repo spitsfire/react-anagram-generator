@@ -29,10 +29,12 @@
     border-color:salmon;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
 #anagram {
     border-color: darkorchid !important;
     border: 5px solid;
+    width: 200px;
 }
