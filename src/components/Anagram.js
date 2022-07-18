@@ -1,9 +1,9 @@
 import React from "react";
 
-const Anagram = () => {
+const Anagram = ({ word }) => {
   return (
     <div className='container' id='anagram'>
-      Anagram
+      <h3>{word}</h3>
     </div>
   );
 };

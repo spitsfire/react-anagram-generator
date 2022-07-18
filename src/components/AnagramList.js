@@ -1,10 +1,12 @@
 import React from "react";
 import Anagram from "./Anagram";
 
-const AnagramList = () => {
+const AnagramList = ({ anagramList }) => {
   return (
     <div className='container' id='anagram-list'>
-      <Anagram />
+      {anagramList
+        ? anagramList.map((anagram) => <Anagram word={anagram} />)
+        : null}
     </div>
   );
 };
