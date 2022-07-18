@@ -36,4 +36,5 @@
 #anagram {
     border-color: darkorchid !important;
     border: 5px solid;
+    width: 200px;
 }
